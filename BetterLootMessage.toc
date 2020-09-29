@@ -2,7 +2,7 @@
 ## Title: Better Loot Message
 ## Author: Atila00 / Atiloa
 ## Notes: Better Loot Message provide simpler and lighter loot messages.
-## Version: 1.1
+## Version: 1.1-alpha
 
 BetterLootMessage.lua
 

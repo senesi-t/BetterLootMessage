@@ -90,5 +90,7 @@ local translateTable = {
 table.foreach(translateTable, function(k,v)
 	if _G[k] ~= nil and stringPaternMatch(_G[k], v) == true then
 		_G[k] = v
+	elseif _G[k] ~= nil then
+		print("BetterLootMessage-alpha : New Patern does not match blizzard Patern \""..k.."\" : \"".._G[k].."\" in your local "..GetLocale().." please share the information with the creator of this addon.");
 	end
 end);
