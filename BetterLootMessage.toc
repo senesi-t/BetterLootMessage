@@ -1,4 +1,4 @@
-## Interface: 80300
+## Interface: 11305
 ## Title: Better Loot Message
 ## Author: Atila00 / Atiloa
 ## Notes: Better Loot Message provide simpler and lighter loot messages.
