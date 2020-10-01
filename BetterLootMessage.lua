@@ -73,18 +73,19 @@ local translateTable = {
 	["FACTION_STANDING_INCREASED_BONUS"] = "%s + %d. (+%.1f bonus)",
 	["FACTION_STANDING_INCREASED_DOUBLE_BONUS"] = "%s + %d. (+%.1f + %.1f bonus)",
 	["FACTION_STANDING_INCREASED_GENERIC"] = "%s +",
-	["LOOT_ROLL_GREED"] = "%s Greed : %s",
-	["LOOT_ROLL_NEED"] = "%s Need : %s",
-	["LOOT_ROLL_PASSED"] = "%s Pass : %s",
-	["LOOT_ROLL_GREED_SELF"] = "Greed : %s",
-	["LOOT_ROLL_NEED_SELF"] = "Need : %s",
-	["LOOT_ROLL_PASSED_SELF"] = "Pass : %s",
-	["LOOT_ROLL_ROLLED_NEED"] = "Need %d : %s : %s",
-	["LOOT_ROLL_ROLLED_GREED"] = "Greed %d : %s : %s",
-	["LOOT_ROLL_WON"] = "+ %s : %s (Won)",
-	["LOOT_ROLL_YOU_WON"] = "+ %s (Won)",
+	["LOOT_ROLL_GREED"] = "|HlootHistory:%d|%s Greed : %s",
+	["LOOT_ROLL_NEED"] = "|HlootHistory:%d|%s Need : %s",
+	["LOOT_ROLL_PASSED"] = "%d %s Pass : %s",
+	["LOOT_ROLL_GREED_SELF"] = "Greed %d : %s",
+	["LOOT_ROLL_NEED_SELF"] = "Need %d : %s",
+	["LOOT_ROLL_PASSED_SELF"] = "|HlootHistory:%d|Pass : %s",
+	["LOOT_ROLL_ROLLED_NEED"] = "|HlootHistory:%d|Need %d : %s : %s",
+	["LOOT_ROLL_ROLLED_GREED"] = "|HlootHistory:%d|Greed %d : %s : %s",
+	["LOOT_ROLL_WON"] = "+%d %s : %s (Won)",
+	["LOOT_ROLL_YOU_WON"] = "|HlootHistory:%d|+ %s (Won)",
 	["LOOT_ROLL_ROLLED_NEED_ROLE_BONUS"] = "Need %d : %s : %s",
-	["LOOT_ROLL_LOST_ROLL"] = "%s - %d : %s"
+	["LOOT_ROLL_LOST_ROLL"] = "|HlootHistory:%d|%s - %d : %s",
+	["SKILL_RANK_UP"] = "%s = %d"
 };
 
 table.foreach(translateTable, function(k,v)
